@@ -14,6 +14,9 @@
     "noImplicitAny": true,
     "noImplicitReturns": true,
     "noImplicitThis": true,
+    // needed to work around issue in upstream shelljs:
+    // https://github.com/shelljs/shelljs/issues/1148
+    "skipLibCheck": true,
     // eslint already warns about:
     "noUnusedLocals": false,
     "noUnusedParameters": false,
